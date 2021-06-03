@@ -75,12 +75,19 @@ html{
 	border-bottom: 1px solid;
 }
 .header {
+	width: 100%;
 	background-image: url(../img/Fone.jpg);
 	background-repeat: no-repeat;
 	height: calc(100% -100%);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: 50% 30%;
+	position: relative;
+	display: flex;
+	justify-content:  center;
+	-ms-align-items: center;
+	align-items: center;
+	color: white;
 }
 .search-wrapper {
 	width: 15%;
@@ -207,15 +214,4 @@ html{
 }
 .second-item:hover .icon {
 	fill: #fff;
-}
-.h1 {
-	font-size: 8px;
-}
-.header-btn {
-	width: 90px;
-	height: 60px;
-	margin-top: 15px
-}
-.header-btn + .header-btn {
-	margin-left: 0;
 }
